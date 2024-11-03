@@ -35,7 +35,9 @@ const WhyUs = () => {
         <div id="carouselExample" class="carousel slide">
           <div className="carousel-inner">
             <div className="carousel-item active p-2">
-              <WhyUsCard text="Largest PPEC in Miami: Our facility is the largest PPEC in Miami, providing a spacious and comfortable environment for children to play, learn, and grow. With ample room for activities, your child will have plenty of opportunities to socialize and develop their skills in a safe and nurturing environment." />
+              <WhyUsCard text=" Why Go up PPEC?
+            At Go Up Pediatric Extended Care, we provide the highest level of support, care, and developmental guidance for your child. 
+            Our mission is to create a nurturing environment where every child can thrive, with compassionate care tailored to their unique needs." />
             </div>
             <div className="carousel-item p-2">
               <WhyUsCard text="Largest PPEC in Miami: Our facility is the largest PPEC in Miami, providing a spacious and comfortable environment for children to play, learn, and grow. With ample room for activities, your child will have plenty of opportunities to socialize and develop their skills in a safe and nurturing environment." />
