@@ -7,6 +7,7 @@ const WhyUsCard = (props) => {
   return (
     <div className="d-flex flex-column align-items-center p-2">
       <img src={redStar} alt="Red Star" className="my-4" id="redStar"></img>
+      <h2 className="card-title">{props.title}</h2>
       <p>{props.text}</p>
     </div>
   );
@@ -35,18 +36,15 @@ const WhyUs = () => {
         <div id="carouselExample" class="carousel slide">
           <div className="carousel-inner">
             <div className="carousel-item active p-2">
-              <WhyUsCard text=" Why Go up PPEC?
-                At Go Up Pediatric Extended Care, we provide the highest level of support, care, and developmental guidance for your child. 
+            <WhyUsCard title=" Why Go up PPEC?" text="At Go Up Pediatric Extended Care, we provide the highest level of support, care, and developmental guidance for your child. 
                 Our mission is to create a nurturing environment where every child can thrive, with compassionate care tailored to their unique needs." />
             </div>
             <div className="carousel-item p-2">
-              <WhyUsCard text="Welcome to Go Up Pediatric Extended Care (PPEC) of Miami
-                We believe in creating a place where children feel happy, safe and cared for. Our specialized Pediatric Extended Care (PPEC) services are designed to support children with special needs with compassion and skill, 
+            <WhyUsCard title="Welcome to Go Up Pediatric Extended Care (PPEC) of Miami" text="We believe in creating a place where children feel happy, safe and cared for. Our specialized Pediatric Extended Care (PPEC) services are designed to support children with special needs with compassion and skill, 
                 providing peace of mind to families in Miami. Every day, we work to make children's lives a little easier by focusing on their health, happiness and development." />
             </div>
             <div className="carousel-item p-2">
-              <WhyUsCard text="Our Mission
-                Our mission at Go Up is simple: to make children happy and their lives, as well as their families, a little easier. We are dedicated to providing comprehensive, 
+            <WhyUsCard title="Our Mission" text="Our mission at Go Up is simple: to make children happy and their lives, as well as their families, a little easier. We are dedicated to providing comprehensive, 
                 personalized care in a safe and engaging environment so that every child can go up and reach their full potential.." />
             </div>
           </div>
@@ -79,18 +77,15 @@ const WhyUs = () => {
           </div>
           <div className="why-us-wrapper row p-5">
             <div className="col-4 d-flex align-items-center">
-              <WhyUsCard text=" Why Go up PPEC?
-                At Go Up Pediatric Extended Care, we provide the highest level of support, care, and developmental guidance for your child. 
+              <WhyUsCard title=" Why Go up PPEC?" text="At Go Up Pediatric Extended Care, we provide the highest level of support, care, and developmental guidance for your child. 
                 Our mission is to create a nurturing environment where every child can thrive, with compassionate care tailored to their unique needs." />
             </div>
             <div className="col-4 d-flex align-items-center">
-              <WhyUsCard text="Welcome to Go Up Pediatric Extended Care (PPEC) of Miami
-                We believe in creating a place where children feel happy, safe and cared for. Our specialized Pediatric Extended Care (PPEC) services are designed to support children with special needs with compassion and skill, 
+              <WhyUsCard title="Welcome to Go Up Pediatric Extended Care (PPEC) of Miami" text="We believe in creating a place where children feel happy, safe and cared for. Our specialized Pediatric Extended Care (PPEC) services are designed to support children with special needs with compassion and skill, 
                 providing peace of mind to families in Miami. Every day, we work to make children's lives a little easier by focusing on their health, happiness and development." />
             </div>
             <div className="col-4 d-flex align-items-center">
-              <WhyUsCard text="Our Mission
-                Our mission at Go Up is simple: to make children happy and their lives, as well as their families, a little easier. We are dedicated to providing comprehensive, 
+              <WhyUsCard title="Our Mission" text="Our mission at Go Up is simple: to make children happy and their lives, as well as their families, a little easier. We are dedicated to providing comprehensive, 
                 personalized care in a safe and engaging environment so that every child can go up and reach their full potential.." />
             </div>
           </div>
